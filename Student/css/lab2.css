@@ -26,3 +26,6 @@ img {
   body {
     background-color: lightblue;
   }
+  p {
+    text-align: center;
+  }
