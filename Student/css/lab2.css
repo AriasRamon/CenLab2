@@ -25,7 +25,40 @@ img {
 
   body {
     background-color: lightblue;
+    font-family: 'Roboto Mono', monospace;
   }
   p {
     text-align: center;
+    font-size: medium;
   }
+
+  /*Media query for tablets*/
+@media screen and (min-width: 620px), print
+{
+	.tab-desk{display: block;}
+
+	.mobile{display: none;}
+
+	nav li{border-top: none;
+              display: inline-block;
+              font-size: 1.25em;
+	}
+}
+
+/*Media query for phones*/
+@media screen and (max-width: 600px), print
+{
+	.tab-desk{display:none;}
+
+}
+
+/* add curved corners with frame */
+#rcorners {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 400px;
+  height: 150px;
+float: center;
+}
+
