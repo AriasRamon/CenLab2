@@ -122,3 +122,33 @@ article {
   padding: 10px;
   box-shadow: 5px 10px; 
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+@media screen and (max-width: 600px) {
+  table th {
+    display: flex;
+  }  table td {
+    display: flex;
+  }
+  
+  table td::before {
+    content: attr(label);
+    font-weight: bold;
+    width: 120px;
+    min-width: 120px;
+  }
+}
