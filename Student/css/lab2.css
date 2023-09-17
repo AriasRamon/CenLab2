@@ -152,3 +152,7 @@ tr:nth-child(even) {
     min-width: 120px;
   }
 }
+
+.p1 {
+  float: left;
+}
