@@ -156,3 +156,13 @@ tr:nth-child(even) {
 .p1 {
   float: left;
 }
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+audio {
+  display: block;
+  margin: 0 auto;
+}
