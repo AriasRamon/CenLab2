@@ -166,3 +166,20 @@ audio {
   display: block;
   margin: 0 auto;
 }
+
+div.a {
+  width: 150px;
+  height: 230px;
+  background-color: green;
+  transform: rotate(20deg);
+  margin-left: 15%;
+}
+
+div.b {
+  width: 150px;
+  height: 80px;
+  background-color: blue;
+  transform: skewY(20deg);
+  margin: auto;
+  margin-top: -20%;
+}
