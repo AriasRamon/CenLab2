@@ -283,3 +283,14 @@ a{
       display: none;
   }
 }
+
+.logo1 {
+    float: left;
+    width: auto;
+    padding: 10px;
+  
+}
+.logo2 {
+  float: left;
+  width: auto;
+}
