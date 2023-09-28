@@ -151,6 +151,22 @@ tr:nth-child(even) {
     width: 120px;
     min-width: 120px;
   }
+
+  .logo1 {
+    float: none;
+    width: none;
+    padding: none;
+    
+    
+    }
+  
+   .logo2 {
+  float:none;
+  width: none;
+  
+  display: block;
+    }
+
 }
 
 .p1 {
@@ -282,6 +298,7 @@ a{
   .hamburger-menu{
       display: none;
   }
+
 }
 
 .logo1 {
@@ -294,3 +311,23 @@ a{
   float: left;
   width: auto;
 }
+
+.skip {
+  position: absolute;
+  left: -999px;
+  
+}
+
+.skip:focus {
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 0.5%;
+  top: auto;
+  left: auto;
+  right: auto;
+  z-index: 1;
+}
+
+
+
